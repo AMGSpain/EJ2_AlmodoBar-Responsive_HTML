@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlmodoBar</title>
+    <link rel="stylesheet" href="estiloAlomodoBar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700&family=Raleway:wght@900&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+
+    <nav class="anchototal">
+        <a href="#platosPrincipales">Platos principales</a>
+        <a href="#menu">Menú</a>
+        <a href="#reserva">Reserva</a>
+        <a href="#localizacion">Localización</a>
+    </nav>
+
+    <header class="anchototal parallax">
+        <h1>AlmodoBar</h1>
+    </header>
+
+    <div id="platosPrincipales" class="contenedor">  
+        <h2>Platos principales</h2>
+        
+        <div  class="tercio1">
+          <img src="bistec.jpg" class="redonda">
+        </div>
+        <div div class="tercio2">
+          <h3>Solomillo</h3>
+          <p>Cantante. El larguirucho que se plantaba en el escenario y de ahí no se movía. El tipo que fue hippie y después patentó el uniforme de campera de cuero y jeans rotos. Su forma de cantar era particular debido a que él nunca recibió ningún tipo de entrenamiento o clases. En una era de competencia vocal, cantar como un profesional fue sin duda una norma para la mayoría de las bandas de rock. Sus grietas, gruñidos, canto y su voz juvenil hizo que sea considerada una de las voces más reconocidas de punk rock.<br>Fallecio en 2001.</p>
+        </div>
+      </div>
+    
+      <div class="contenedor"> 
+        <div class="tercio2">
+          <h3>Pescado</h3>
+          <p>Bajista y compositor. El chico malo. Siempre fue el más creativo de la banda de Queens, también el más infeliz. Fue chapero, aprendiz de atracador, vendedor y consumidor de heroína, cómplice de un robo a mano armada… y un genio poético que se dirigía hacia una temprana sepultura pero que se salvó gracias al rock ‘n’ roll”. Consideraba que el grupo era su unica familia.<br>Fallecio en 2002.</p>
+        </div>
+        <div class="tercio1">
+          <img src="bacalao.jpg" class="redonda">
+        </div>
+      </div>
+      
+      <div class="contenedor">
+        <div class="tercio1">
+          <img src="huevos_fritos.jpg" class="redonda">
+        </div>
+        <div class="tercio2">
+          <h3>Ave</h3>
+          <p>Guitarrista. Principalmente se caracterizó por su particular forma de tocar, siempre agachado y rara vez tocando solos largos o difíciles. Hacía subidas y bajadas con la guitarra y tenía una habilidad para moverse y tocar muy rápido al mismo tiempo. Mantuvo una relación distante y conflictiva con Joey, sobre todo desde que le robo la novia.<br>Fallecio en 2004.</p>
+        </div>
+      </div>
+
+    <div id="menu" class="contenedor">
+        <h2>Menú</h2>
+        <h3>Para ver el menú pulsa aquí:
+            <form action="CV.pdf">
+                <button type="submit">Ver Menú</button>
+            </form>
+        </h3>
+    </div>
+
+    <div id="reserva" class="contenedor">
+        <h2>Reservar</h2>
+
+        <article>
+            <div>
+                <form method="POST" action="http://www.cursos-diseno.es/mostrar.php">
+                <table id="formulario">
+                    <tr>
+                        <td class="titulo">Name</td>
+                        <td><input type="text" name="nombre" placeholder="nombre" required class="medium"></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">Localidad</td>
+                        <td><input type="text" name="localidad" placeholder="Madrid" value="Madrid" required class="big"></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">CP</td>
+                        <td><input type="text" name="cp" placeholder="00000" minlength="5" maxlength="5" required class="medium"></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">Nacimiento</td>
+                        <td><input type="date" name="nacimiento" placeholder="aaaa-mm-dd" min="1940-01-01" max="2001-01-01"></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">DNI</td>
+                        <td><input type="text" name="dni" placeholder="numeros+letra" autocomplete="off" class="big"></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">Provincia</td> 
+                        <td id="provincia">
+                            <select required name="provincia" class="form-control">
+                                <option value="">Elige Provincia</option>
+                                <option value="Álava/Araba">Álava/Araba</option>
+                                <option value="Albacete">Albacete</option>
+                                <option value="Alicante">Alicante</option>
+                                <option value="Almería">Almería</option>
+                                <option value="Asturias">Asturias</option>
+                                <option value="Ávila">Ávila</option>
+                                <option value="Badajoz">Badajoz</option>
+                                <option value="Baleares">Baleares</option>
+                                <option value="Barcelona">Barcelona</option>
+                                <option value="Burgos">Burgos</option>
+                                <option value="Cáceres">Cáceres</option>
+                                <option value="Cádiz">Cádiz</option>
+                                <option value="Cantabria">Cantabria</option>
+                                <option value="Castellón">Castellón</option>
+                                <option value="Ceuta">Ceuta</option>
+                                <option value="Ciudad Real">Ciudad Real</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Cuenca">Cuenca</option>
+                                <option value="Gerona/Girona">Gerona/Girona</option>
+                                <option value="Granada">Granada</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                                <option value="Huelva">Huelva</option>
+                                <option value="Huesca">Huesca</option>
+                                <option value="Jaén">Jaén</option>
+                                <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                                <option value="La Rioja">La Rioja</option>
+                                <option value="Las Palmas">Las Palmas</option>
+                                <option value="León">León</option>
+                                <option value="Lérida/Lleida">Lérida/Lleida</option>
+                                <option value="Lugo">Lugo</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="Málaga">Málaga</option>
+                                <option value="Melilla">Melilla</option>
+                                <option value="Murcia">Murcia</option>
+                                <option value="Navarra">Navarra</option>
+                                <option value="Orense/Ourense">Orense/Ourense</option>
+                                <option value="Palencia">Palencia</option>
+                                <option value="Pontevedra">Pontevedra</option>
+                                <option value="Salamanca">Salamanca</option>
+                                <option value="Segovia">Segovia</option>
+                                <option value="Sevilla">Sevilla</option>
+                                <option value="Soria">Soria</option>
+                                <option value="Tarragona">Tarragona</option>
+                                <option value="Tenerife">Tenerife</option>
+                                <option value="Teruel">Teruel</option>
+                                <option value="Toledo">Toledo</option>
+                                <option value="Valencia">Valencia</option>
+                                <option value="Valladolid">Valladolid</option>
+                                <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                                <option value="Zamora">Zamora</option>
+                                <option value="Zaragoza">Zaragoza</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="titulo">Sexo</td>
+                        <td><label><input type="radio" name="sexo" value="hombre" checked>Hombre</label>
+                            <label><input type="radio" name="sexo" value="mujer">mujer</label></td>
+                    </tr>
+                    <tr>
+                        <td class="titulo"><label><input type="checkbox" name="condiciones" value="si" required></label></td>
+                        <td>Acepto las condiciones</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="boton" value="Enviar"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="hidden" name="destinatario" value="coper90@hotmail.com"></td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+    
+        </article>
+    </div>
+
+    <div id="localizacion" class="contenedor">
+        <h2>Localización</h2>
+        <h3>Augusto Figueroa 41, Madrid</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2387.681974855373!2d-3.699063103381461!3d40.42232792514119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422885ea255465%3A0x198810d265105c28!2sC.%20de%20Augusto%20Figueroa%2C%2041%2C%2028004%20Madrid!5e0!3m2!1ses!2ses!4v1650386598451!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    
+</body>
+</html>
